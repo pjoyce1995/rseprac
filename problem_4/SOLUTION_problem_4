@@ -1,0 +1,16 @@
+- Here I have outlined the key processes involved in the translation model. All that remains is to clean up the data and encode, then start training.
+
+- I chose the encoder-decoder architecture as it has been shown to be effective at simple translation tasks. I did not include an attention mechanism as only short sentences were requested.
+
+- To train the model, remove special characters, and encode (so each word is assigned a number). Finally, pad so all sentences are the same length.
+
+- To test the model, withold a certain proportion of training data to test the model. During training, test how well the model translates the test data.
+Once a model run has completed, optimise hyper parameters such as learning rate to maximise effectiveness of the model. Finally, evaluate model at the end with a separate portion of data that was not seen during training or testing. This is the final evaluation of the model.
+
+- Explaining how the model works to a researcher (i assume no prior knowledge of deep neural networks):
+        - Classical models work by the programmer telling the computer exactly what to do. E.g. if the user inputs the word ‘hello’, then output ‘bonjour’. But language is too complex for this approach to work effectively for entire sentences. Deep neural networks are typically trained by giving the model many good examples of what it needs to do. In this model, we are giving the model many examples of correct translations between english and french.
+        - Each of the pieces of training data contains a sentence in english and its corresponding translation into french. The words are tokenised, which means that the words are converted into numbers (which is much easier for a computer to work with).
+        - The encoder receives the sentence as a sequence of numbers, which it converts into a compact representation of the sentence.
+        - The decoder recieves the output from the encoder, which it converts back into a sequence of numbers, and then a sentence in the translated language.
+        - When the model begins training, the model essentially outputs gibberish. But with enough examples, it learns how much weight to give certain combinations of words in contexts of other words.
+        - There is a delicate balance involved with training such models. Overfitting can occur if the model learns the training data so well that it fails to work effectively on new data that it is given. This is why it is so important that the model tests itself on a test dataset not used during training. This is used to determine how well the model works in reality.
