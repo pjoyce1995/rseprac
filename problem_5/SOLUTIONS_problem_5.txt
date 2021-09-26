@@ -1,0 +1,6 @@
+(i) the filename that is going to be written (a string) [home_dir/Ozone_2001-01-01_simhour.png]
+
+(ii) 
+    - resolution (dpi), default is quite poor resolution, and these images could be presented in large, so would benefit from a high resolution being selected.
+    - the location of the Home directory (unless that is included earlier in the file)
+    - the simhour and format it will be in (unless that is included earlier in the file)
