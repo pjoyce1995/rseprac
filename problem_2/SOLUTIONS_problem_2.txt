@@ -1,1 +1,5 @@
-Run the python file in this directory called find_less_100.py
+One (slightly slow) way to find the number of characters in each file would be to enter in the terminal:
+
+- wc -w *
+
+Alternatively, to receive all the files with fewer than 100 entries, run the python file in this directory called find_less_100.py
