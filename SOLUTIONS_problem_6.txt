@@ -1,0 +1,28 @@
+
+
+- First it is important to gain an understanding in how to obtain the data, thus I would ask the following questions
+
+    	- Who are the group of individuals? Can you provide me with a list of twitter handles and/or facebook profile addresses?
+     		- If not, can you provide me with the name of the group, and any identifying features of members of the group?
+        - If the group has a facebook page and/or twitter page, can you provide me with the link(s)?
+
+- Once the group has been identified, next it is important to get an idea of how to filter through the posts to obtain the information that is important, thus I would ask the following:
+
+    - Do you want data including all comments made, or just relating to the general election?
+        - In the latter case, are there certain keywords that you would like me to search for specifically?
+		- If so, would including any keyword be sufficient, or are there certain combinations that are necessary?
+
+    - Between which dates of posting would you like comments to be collected?
+
+Lastly, I would obtain information about the format that the researcher would like their data to come in by  asking the following:
+
+    - Would you like the comment to be left in the original language of posting?
+
+    - Would you like only the text posts, or also videos and images?
+    
+    - Would you like the name of the poster to be attached to each comment?
+
+    - Would you like the date of posting and to which site the comment was posted?
+
+    - In what file format would you prefer to receive the data?
+
