@@ -1,0 +1,11 @@
+open terminal and cd to the directory where the files are, then use the following code:
+
+for f in *.csv; do 
+    mv "$f" “${f%.csv}.dat”
+done
+
+
+If necessary, explain to the researcher how the command line works, and provide a few basic commands (ls, pwd, etc).
+
+Explain that in the command above that was used, mv is the command to move files (and is also used in renaming), the following parts remove the csv part of the file name and adds .dat
+
