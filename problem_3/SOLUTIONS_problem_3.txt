@@ -1,0 +1,14 @@
+
+- When finding the square root, use math.sqrt instead of **0.5, it is much faster. NumPy and Math are both optimised for faster mathematical computations than the inbuilt functions.
+
+- Because Python is an interpreted language, the fewer instructions that must be executed, the faster the code will run. So, generally, using a for loop will be faster than a while loop (list comprehensions are even faster, if they can be used)
+	- If you change to for loops and want to have an additional variable that is 'counting' eaach loop, then use the enumerate function for greater performance
+
+- When assigning variables, doing many at the same time is much faster. E.g.
+
+apple = 1
+banana = 2
+
+Change to:
+
+apple, banana = 1,2
