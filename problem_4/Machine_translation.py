@@ -11,10 +11,10 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 
 # Download the text data
 path_to_zip = tf.keras.utils.get_file(
-    'spa-eng.zip', origin='http://download.tensorflow.org/data/spa-eng.zip', 
+    'fra-eng.zip', origin='http://download.tensorflow.org/data/fra-eng.zip', 
     extract=True)
 
-path_to_file = os.path.dirname(path_to_zip)+"/spa-eng/spa.txt"
+path_to_file = os.path.dirname(path_to_zip)+"/fra-eng/fra.txt"
 
 #create function to clean up data to remove punctuation and spaces
 from nltk.tokenize import RegexpTokenizer
